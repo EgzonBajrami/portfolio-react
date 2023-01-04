@@ -1,0 +1,46 @@
+.contactIcons-wrapper{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    position:fixed;
+    top:100;
+    margin-left:5%;
+    bottom: 0;
+}
+.above-line{
+    display:flex;
+    flex-direction:column;
+
+}
+.icon-container1{
+    width:30px;
+    margin-left:-45%;
+    margin-bottom:25%;
+
+}
+.icon-container1:hover{
+    margin-bottom:50%;
+    cursor:pointer;
+}
+.icon-container2{
+    width:30px;
+    margin-left:-45%;
+    margin-bottom:25%;
+
+}
+.icon-container2:hover{
+    margin-bottom:50%;
+    cursor:pointer;
+}
+.contactIcons-line{
+    width:5%;
+    margin-left:5%;
+    height:100px;
+    border-left:1px solid white;
+}
+@media screen and (max-width:600px){
+    .contactIcons-wrapper{
+        display:none;
+    }
+
+}

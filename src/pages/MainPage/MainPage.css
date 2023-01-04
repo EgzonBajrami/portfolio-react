@@ -1,0 +1,31 @@
+.wrapper{
+    display:flex;
+    flex-direction:column;
+    margin-left:15%;
+    width:80%;
+}
+.intro-container{
+    margin-top:5%;
+}
+.about-me{
+    margin-top:15%;
+}
+.projects{
+    margin-top:15%;
+}
+.contact{
+    margin-top:15%;
+}
+@media  screen and (max-width:600px){
+    .wrapper{
+        display:flex;
+        flex-direction:column;
+        margin-left:0%;
+        width:100%;
+    }
+    .contact{
+        height:500px;
+    }
+   
+
+}
