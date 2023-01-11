@@ -2,6 +2,7 @@ import './Projects.css'
 import conadkosova from '../../assets/conadkosova.png'
 import github from '../../assets/github.svg'
 import ebrealestate from '../../assets/ebrealestate.png'
+import nhc from '../../assets/nhc.png'
 
 const Projects = () =>{
 
@@ -78,6 +79,40 @@ const Projects = () =>{
     
 
 </div>
+<div className="insideProjects" onClick={()=>{
+
+}}>
+<a target="_blank" rel="noreferrer" href="https://nhc-ks.com/">
+              
+    <div className="insideProjects-img">
+        <img src={nhc} alt="conadkosova" />
+    </div>
+    </a>
+    
+    
+    <div className="insideProjects-txt">
+        <p>Featured Project</p>
+        <h3>New Health Care</h3>
+        <div className="text-container">
+        New Health Care, a website designed for the single purpose of an advertisement of their health care system.
+
+        </div>
+        <div className="tech-container">
+            <p>React</p>
+            <p>Javascript</p>
+            <p>HTML</p>
+            <p>CSS</p>
+        </div>
+        <a target="_blank" rel="noreferrer" href="                    https://github.com/EgzonBajrami/nhc-react">
+        <div className="github-container">
+
+            <img src={github} alt="github-link" />
+        </div>
+        </a>
+    </div>
+
+</div>
+
         </div>
 
     </div>
