@@ -131,7 +131,7 @@ const Projects = () =>{
             <p>MongoDB</p>
             <p>Material UI</p>
         </div>
-        <a target="_blank" rel="noreferrer" href="https://github.com/EgzonBajrami/realestate-react">
+        <a target="_blank" rel="noreferrer" href="https://github.com/EgzonBajrami/ecommerce-react">
         <div className="github-container">
 
             <img src={github} alt="github-link" />
