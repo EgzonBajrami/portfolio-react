@@ -129,7 +129,7 @@ const Projects = () =>{
             <p>React</p>
             <p>Express</p>
             <p>MongoDB</p>
-            <p>Framer-Motion</p>
+            <p>Material UI</p>
         </div>
         <a target="_blank" rel="noreferrer" href="https://github.com/EgzonBajrami/realestate-react">
         <div className="github-container">
