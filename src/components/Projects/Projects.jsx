@@ -3,6 +3,7 @@ import conadkosova from '../../assets/conadkosova.png'
 import github from '../../assets/github.svg'
 import ebrealestate from '../../assets/ebrealestate.png'
 import nhc from '../../assets/nhc.png'
+import ecommerce from '../../assets/ecommerce.png'
 
 const Projects = () =>{
 
@@ -110,6 +111,40 @@ const Projects = () =>{
         </div>
         </a>
     </div>
+
+</div>
+<div className="insideProjects" onClick={()=>{
+
+}}>
+
+    
+    <div className="insideProjects-txt">
+        <p>Featured Project</p>
+        <h3>E - Commerce</h3>
+        <div className="text-container">
+           Simple e-commerce web app made with React and Express. Contains ratings for each product and you can drop your own rating.
+
+        </div>
+        <div className="tech-container">
+            <p>React</p>
+            <p>Express</p>
+            <p>MongoDB</p>
+            <p>Framer-Motion</p>
+        </div>
+        <a target="_blank" rel="noreferrer" href="https://github.com/EgzonBajrami/realestate-react">
+        <div className="github-container">
+
+            <img src={github} alt="github-link" />
+        </div>
+        </a>
+    </div>
+    <a target="_blank"  rel="noreferrer" href="https://reliable-manatee-d8cd77.netlify.app/">
+              
+    <div className="insideProjects-img">
+        <img src={ecommerce} alt="e-commerce" />
+    </div>
+    </a>
+    
 
 </div>
 
