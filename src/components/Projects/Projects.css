@@ -33,6 +33,9 @@
     height:auto;
     max-height:100%;
 }
+.insideProjects-img img:hover{
+    transform:scale(1.1);
+}
 .insideProjects-txt{
     width:500px;
     
