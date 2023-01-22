@@ -3,18 +3,24 @@
     flex-direction:column;
     margin-left:15%;
     width:80%;
+    height:auto;
 }
 .intro-container{
     margin-top:5%;
 }
 .about-me{
     margin-top:15%;
+    height:auto;
 }
 .projects{
+    display:flex;
     margin-top:15%;
+
 }
 .contact{
+    
     margin-top:15%;
+    height:auto;
 }
 @media  screen and (max-width:600px){
     .wrapper{
@@ -27,5 +33,15 @@
         height:500px;
     }
    
+
+}
+
+@media screen and (min-width:601px) and (max-width:1000px){
+  
+    .contact{
+     
+        height:1100px;
+        overflow-x:visible;
+    }
 
 }

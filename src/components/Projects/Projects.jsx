@@ -73,7 +73,7 @@ const Projects = () =>{
     </div>
     <a target="_blank"  rel="noreferrer" href="https://www.eb-patundshmeri.com/">
               
-    <div className="insideProjects-img">
+    <div className="insideProjects-img2">
         <img src={ebrealestate} alt="eb-realestate" />
     </div>
     </a>
@@ -140,7 +140,7 @@ const Projects = () =>{
     </div>
     <a target="_blank"  rel="noreferrer" href="https://reliable-manatee-d8cd77.netlify.app/">
               
-    <div className="insideProjects-img">
+    <div className="insideProjects-img2">
         <img src={ecommerce} alt="e-commerce" />
     </div>
     </a>
