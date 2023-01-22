@@ -46,6 +46,9 @@
 .insideProjects-img img:hover{
     transform:scale(1.1);
 }
+.insideProjects-img2 img:hover{
+    transform:scale(1.1);
+}
 .insideProjects-txt{
     width:500px;
     
