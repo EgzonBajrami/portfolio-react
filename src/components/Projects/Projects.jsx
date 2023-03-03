@@ -4,6 +4,7 @@ import github from '../../assets/github.svg'
 import ebrealestate from '../../assets/ebrealestate.png'
 import nhc from '../../assets/nhc.png'
 import ecommerce from '../../assets/ecommerce.png'
+import pizza from '../../assets/pizza.jpg';
 
 const Projects = () =>{
 
@@ -145,6 +146,39 @@ const Projects = () =>{
     </div>
     </a>
     
+
+</div>
+<div className="insideProjects" onClick={()=>{
+
+}}>
+<a target="_blank" rel="noreferrer" href="https://spontaneous-cuchufli-3dea6d.netlify.app/">
+              
+    <div className="insideProjects-img">
+        <img src={pizza} alt="pizza" />
+    </div>
+    </a>
+    
+    
+    <div className="insideProjects-txt">
+        <p>Featured Project</p>
+        <h3>Pizza Restaurant</h3>
+        <div className="text-container">
+          Pizza Restaurant website where you can order online and pay online. In this project I tested several things, such as Typewriter and Stripe (backend).
+
+        </div>
+        <div className="tech-container">
+            <p>React</p>
+            <p>Express</p>
+            <p>MongoDB</p>
+            <p>Stripe API</p>
+        </div>
+        <a target="_blank" rel="noreferrer" href="https://github.com/EgzonBajrami/restaurant-react">
+        <div className="github-container">
+
+            <img src={github} alt="github-link" />
+        </div>
+        </a>
+    </div>
 
 </div>
 
