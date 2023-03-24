@@ -13,7 +13,7 @@ const Contacts = ()  =>{
             <p>You can contact me with email at: ebajrami181@gmail.com</p>
         </div>
         <div className="contact-secondText">
-            <p>Or with phone number: +383 48-370-505</p>
+            <p>Or with phone number: +383 045 323-311</p>
         </div>
     </div>
     </>
