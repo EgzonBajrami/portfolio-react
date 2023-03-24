@@ -6,6 +6,8 @@ import express from '../../assets/express.png'
 import mongodb from '../../assets/mongodb.svg'
 import mongoose from '../../assets/mongoose.png'
 import portfolioImage from '../../assets/portfolioImage.jpg'
+import redux from '../../assets/redux.svg';
+import typescript from '../../assets/typescript.svg'
 const AboutMe = () =>{
     return <>
     <div className="about-wrapper">
@@ -38,12 +40,32 @@ const AboutMe = () =>{
                 </div>
                 <div className="technolog">
                     <div className="image-container-frame">
+                    <img src={typescript} alt="js-icon" />
+                    </div>
+                   <div className="technology">
+
+              
+                    <p>Typescript</p>
+                    </div>
+                </div>
+                <div className="technolog">
+                    <div className="image-container-frame">
                     <img src={reactLogo} alt="js-icon" />
                     </div>
                    <div className="technology">
 
               
                     <p>React</p>
+                    </div>
+                </div>
+                <div className="technolog">
+                    <div className="image-container-frame">
+                    <img src={redux} alt="js-icon" />
+                    </div>
+                   <div className="technology">
+
+              
+                    <p>React-Redux</p>
                     </div>
                 </div>
                 <div className="technolog">
